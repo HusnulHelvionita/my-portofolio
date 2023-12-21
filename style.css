@@ -1,0 +1,122 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(87, 164, 188);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: sans-serif;
+    color: rgb(254, 254, 254);
+}
+
+.Home {
+    float: right;
+}
+
+/* Change text color for the Home link */
+.Home a {
+    color: rgb(254, 253, 253);
+}
+/* Di dalam style.css atau file CSS terpisah Anda */
+.social-icon {
+    color: #333; /* Ganti warna ikon sesuai kebutuhan Anda */
+    margin-left: 10px; /* Sesuaikan margin sesuai kebutuhan Anda */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Ganti warna ikon saat dihover sesuai kebutuhan Anda */
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Fix the class selector for the image container */
+.image {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(87, 164, 188);
+}
+
+/* Adjust the image styles */
+.image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%; /* Change to 50% for a circular shape */
+    border: 10px solid floralwhite;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.nama {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    color: floralwhite;
+    display: block;
+    margin: 0 auto 10px; /* Adjust the margin-bottom value as needed */
+}
+    /* Menambahkan style untuk mengubah posisi ikon ke tengah */
+.social-container {
+    justify-content: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
